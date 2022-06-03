@@ -99,7 +99,7 @@ data:
               maxRequestsPerHostStr: "32"
               jenkinsUrl: "http://jenkins:8080"
               name: "kubernetes"
-              namespace: "ci-cd"
+              namespace: "helm-jenkins"
               skipTlsVerify: true
         credentials:
           system:
@@ -113,8 +113,8 @@ data:
                   username: "git_hub_user"
         unclassified:
           location:
-            adminAddress: "pluhin@gmail.com"
-            url: "http://jenkins.k8s-9.sa/"
+            adminAddress: "bombel.ilya@gmail.com"
+            url: "http://jenkins-helm.k8s-9.sa/"
           shell:
             shell: "/bin/bash"
 ---
